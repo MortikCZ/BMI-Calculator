@@ -6,5 +6,4 @@
 
 I used data from the CDC to calculate the percentiles that are important for BMI outcomes in children. -> [Link here](https://www.cdc.gov/growthcharts/cdc_charts.htm)
 
-> [!NOTE]
-> This is my first project in Python.
+*Please note that this is my first Python project*
