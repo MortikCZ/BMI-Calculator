@@ -27,44 +27,660 @@ if age > 20:
 
 elif age <= 20:
     
-    per = 0
+    per = ""
     
     print("Are you girl or boy? (girl/boy)")
-    gender = input()
+    response1 = input()
 
-    percentiles_boy = [5, 10, 25, 50, 75, 85, 90, 95]
-    percentiles_girl = [5, 10, 25, 50, 75, 85, 90, 95]
+    if response1 == "boy":
+        if age == 2:
+            if bmi < 14.7:
+                per = 5
+            elif bmi < 15.1:
+                per = 10
+            elif bmi < 15.7:
+                per = 25
+            elif bmi < 16.6:
+                per = 50
+            elif bmi < 17.6:
+                per = 75
+            elif bmi < 18.2:
+                per = 85
+            elif bmi < 18.6:
+                per = 90
+            else:
+                per = 95
+        if age == 3:
+            if bmi < 14.3:
+                per = 5
+            elif bmi < 14.7:
+                per = 10
+            elif bmi < 15.3:
+                per = 25
+            elif bmi < 16:
+                per = 50
+            elif bmi < 16.8:
+                per = 75
+            elif bmi < 17.3:
+                per = 85
+            elif bmi < 17.7:
+                per = 90
+            else:
+                per = 95
+        if age == 4:
+            if bmi < 14:
+                per = 5
+            elif bmi < 14.3:
+                per = 10
+            elif bmi < 14.9:
+                per = 25
+            elif bmi < 15.6:
+                per = 50
+            elif bmi < 16.4:
+                per = 75
+            elif bmi < 16.9:
+                per = 85
+            elif bmi < 17.3:
+                per = 90
+            else:
+                per = 95
+        if age == 5:
+            if bmi < 13.8:
+                per = 5
+            elif bmi < 14.1:
+                per = 10
+            elif bmi < 14.7:
+                per = 25
+            elif bmi < 15.4:
+                per = 50
+            elif bmi < 16.3:
+                per = 75
+            elif bmi < 16.8:
+                per = 85
+            elif bmi < 17.3:
+                per = 90
+            else:
+                per = 95
+        if age == 6:
+            if bmi < 13.7:
+                per = 5
+            elif bmi < 14:
+                per = 10
+            elif bmi < 14.6:
+                per = 25
+            elif bmi < 15.4:
+                per = 50
+            elif bmi < 16.4:
+                per = 75
+            elif bmi < 17:
+                per = 85
+            elif bmi < 17.5:
+                per = 90
+            else:
+                per = 95
+        if age == 7:
+            if bmi < 13.7:
+                per = 5
+            elif bmi < 14:
+                per = 10
+            elif bmi < 14.7:
+                per = 25
+            elif bmi < 15.5:
+                per = 50
+            elif bmi < 16.6:
+                per = 75
+            elif bmi < 17.4:
+                per = 85
+            elif bmi < 18:
+                per = 90
+            else:
+                per = 95
+        if age == 8:
+            if bmi < 13.8:
+                per = 5
+            elif bmi < 14.1:
+                per = 10
+            elif bmi < 14.8:
+                per = 25
+            elif bmi < 15.8:
+                per = 50
+            elif bmi < 17.1:
+                per = 75
+            elif bmi < 18:
+                per = 85
+            elif bmi < 18.7:
+                per = 90
+            else:
+                per = 95
+        if age == 9:
+            if bmi < 14:
+                per = 5
+            elif bmi < 14.3:
+                per = 10
+            elif bmi < 15.1:
+                per = 25
+            elif bmi < 16.2:
+                per = 50
+            elif bmi < 17.6:
+                per = 75
+            elif bmi < 18.6:
+                per = 85
+            elif bmi < 19.5:
+                per = 90
+            else:
+                per = 95
+        if age == 10:
+            if bmi < 14.2:
+                per = 5
+            elif bmi < 14.6:
+                per = 10
+            elif bmi < 15.5:
+                per = 25
+            elif bmi < 16.6:
+                per = 50
+            elif bmi < 18.2:
+                per = 75
+            elif bmi < 19.4:
+                per = 85
+            elif bmi < 20.3:
+                per = 90
+            else:
+                per = 95
+        if age == 11:
+            if bmi < 14.6:
+                per = 5
+            elif bmi < 15:
+                per = 10
+            elif bmi < 15.9:
+                per = 25
+            elif bmi < 17.2:
+                per = 50
+            elif bmi < 18.9:
+                per = 75
+            elif bmi < 20.2:
+                per = 85
+            elif bmi < 21.2:
+                per = 90
+            else:
+                per = 95
+        if age == 12:
+            if bmi < 15:
+                per = 5
+            elif bmi < 15.5:
+                per = 10
+            elif bmi < 16.4:
+                per = 25
+            elif bmi < 17.8:
+                per = 50
+            elif bmi < 19.7:
+                per = 75
+            elif bmi < 21:
+                per = 85
+            elif bmi < 22.1:
+                per = 90
+            else:
+                per = 95
+        if age == 13:
+            if bmi < 15.5:
+                per = 5
+            elif bmi < 16:
+                per = 10
+            elif bmi < 17:
+                per = 25
+            elif bmi < 18.5:
+                per = 50
+            elif bmi < 20.4:
+                per = 75
+            elif bmi < 21.9:
+                per = 85
+            elif bmi < 23:
+                per = 90
+            else:
+                per = 95
+        if age == 14:
+            if bmi < 16:
+                per = 5
+            elif bmi < 16.5:
+                per = 10
+            elif bmi < 17.6:
+                per = 25
+            elif bmi < 19.2:
+                per = 50
+            elif bmi < 21.2:
+                per = 75
+            elif bmi < 22.7:
+                per = 85
+            elif bmi < 23.8:
+                per = 90
+            else:
+                per = 95
+        if age == 15:
+            if bmi < 16.6:
+                per = 5
+            elif bmi < 17.1:
+                per = 10
+            elif bmi < 18.3:
+                per = 25
+            elif bmi < 19.9:
+                per = 50
+            elif bmi < 22:
+                per = 75
+            elif bmi < 23.5:
+                per = 85
+            elif bmi < 24.6:
+                per = 90
+            else:
+                per = 95
+        if age == 16:
+            if bmi < 17.1:
+                per = 5
+            elif bmi < 17.7:
+                per = 10
+            elif bmi < 18.9:
+                per = 25
+            elif bmi < 20.6:
+                per = 50
+            elif bmi < 22.7:
+                per = 75
+            elif bmi < 24.2:
+                per = 85
+            elif bmi < 25.4:
+                per = 90
+            else:
+                per = 95
+        if age == 17:
+            if bmi < 17.7:
+                per = 5
+            elif bmi < 18.3:
+                per = 10
+            elif bmi < 19.6:
+                per = 25
+            elif bmi < 21.2:
+                per = 50
+            elif bmi < 23.4:
+                per = 75
+            elif bmi < 24.9:
+                per = 85
+            elif bmi < 26.1:
+                per = 90
+            else:
+                per = 95
+        if age == 18:
+            if bmi < 18.2:
+                per = 5
+            elif bmi < 18.9:
+                per = 10
+            elif bmi < 20.2:
+                per = 25
+            elif bmi < 21.9:
+                per = 50
+            elif bmi < 24.1:
+                per = 75
+            elif bmi < 25.7:
+                per = 85
+            elif bmi < 26.9:
+                per = 90
+            else:
+                per = 95
+        if age == 19:
+            if bmi < 18.7:
+                per = 5
+            elif bmi < 19.4:
+                per = 10
+            elif bmi < 20.7:
+                per = 25
+            elif bmi < 22.5:
+                per = 50
+            elif bmi < 24.8:
+                per = 75
+            elif bmi < 26.4:
+                per = 85
+            elif bmi < 27.6:
+                per = 90
+            else:
+                per = 95
+        if age == 20:
+            if bmi < 19.1:
+                per = 5
+            elif bmi < 19.8:
+                per = 10
+            elif bmi < 21.2:
+                per = 25
+            elif bmi < 23:
+                per = 50
+            elif bmi < 25.4:
+                per = 75
+            elif bmi < 27.1:
+                per = 85
+            elif bmi < 28.4:
+                per = 90
+            else:
+                per = 95
 
-    if gender == "boy":
-        percentiles = percentiles_boy
-    elif gender == "girl":
-        percentiles = percentiles_girl
-
-    for age_percentiles in [
-        [14.7, 15.1, 15.7, 16.6, 17.6, 18.2, 18.6],
-        [14.3, 14.7, 15.3, 16, 16.8, 17.3, 17.7],
-        [14, 14.3, 14.9, 15.6, 16.4, 16.9, 17.3],
-        [13.8, 14.1, 14.7, 15.4, 16.3, 16.8, 17.3],
-        [13.7, 14, 14.6, 15.4, 16.4, 17, 17.5],
-        [13.7, 14, 14.7, 15.5, 16.6, 17.4, 18],
-        [13.8, 14.1, 14.8, 15.8, 17.1, 18, 18.7],
-        [14, 14.3, 15.1, 16.2, 17.6, 18.6, 19.5],
-        [14.2, 14.6, 15.5, 16.6, 18.2, 19.4, 20.3],
-        [14.6, 15, 15.9, 17.2, 18.9, 20.2, 21.2],
-        [15, 15.5, 16.4, 17.8, 19.7, 21, 22.1],
-        [15.5, 16, 17, 18.5, 20.4, 21.9, 23],
-        [16, 16.5, 17.6, 19.2, 21.2, 22.7, 23.8],
-        [16.6, 17.1, 18.3, 19.9, 22, 23.5, 24.6],
-        [17.1, 17.7, 18.9, 20.6, 22.7, 24.2, 25.4],
-        [17.7, 18.3, 19.6, 21.2, 23.4, 24.9, 26.1],
-        [18.2, 18.9, 20.2, 21.9, 24.1, 25.7, 26.9],
-        [18.7, 19.4, 20.7, 22.5, 24.8, 26.4, 27.6],
-        [19.1, 19.8, 21.2, 23, 25.4, 27.1, 28.4],
-    ][age - 2]:
-        if bmi < age_percentiles:
-            per = percentiles.pop(0)
-            break
-
+    if response1 == "girl":
+        if age == 2:
+            if bmi < 14.4:
+                per = 5
+            elif bmi < 14.8:
+                per = 10
+            elif bmi < 15.5:
+                per = 25
+            elif bmi < 16.4:
+                per = 50
+            elif bmi < 17.4:
+                per = 75
+            elif bmi < 18:
+                per = 85
+            elif bmi < 18.4:
+                per = 90
+            else:
+                per = 95
+        if age == 3:
+            if bmi < 14:
+                per = 5
+            elif bmi < 14.3:
+                per = 10
+            elif bmi < 14.9:
+                per = 25
+            elif bmi < 15.7:
+                per = 50
+            elif bmi < 16.6:
+                per = 75
+            elif bmi < 17.2:
+                per = 85
+            elif bmi < 17.6:
+                per = 90
+            else:
+                per = 95
+        if age == 4:
+            if bmi < 13.7:
+                per = 5
+            elif bmi < 14:
+                per = 10
+            elif bmi < 14.6:
+                per = 25
+            elif bmi < 15.3:
+                per = 50
+            elif bmi < 16.2:
+                per = 75
+            elif bmi < 16.8:
+                per = 85
+            elif bmi < 17.3:
+                per = 90
+            else:
+                per = 95
+        if age == 5:
+            if bmi < 13.5:
+                per = 5
+            elif bmi < 13.8:
+                per = 10
+            elif bmi < 14.4:
+                per = 25
+            elif bmi < 15.2:
+                per = 50
+            elif bmi < 16.1:
+                per = 75
+            elif bmi < 16.8:
+                per = 85
+            elif bmi < 17.3:
+                per = 90
+            else:
+                per = 95
+        if age == 6:
+            if bmi < 13.4:
+                per = 5
+            elif bmi < 13.7:
+                per = 10
+            elif bmi < 14.4:
+                per = 25
+            elif bmi < 15.2:
+                per = 50
+            elif bmi < 16.3:
+                per = 75
+            elif bmi < 17.1:
+                per = 85
+            elif bmi < 17.7:
+                per = 90
+            else:
+                per = 95
+        if age == 7:
+            if bmi < 13.4:
+                per = 5
+            elif bmi < 13.8:
+                per = 10
+            elif bmi < 14.5:
+                per = 25
+            elif bmi < 15.5:
+                per = 50
+            elif bmi < 16.7:
+                per = 75
+            elif bmi < 17.6:
+                per = 85
+            elif bmi < 18.3:
+                per = 90
+            else:
+                per = 95
+        if age == 8:
+            if bmi < 13.5:
+                per = 5
+            elif bmi < 13.9:
+                per = 10
+            elif bmi < 14.7:
+                per = 25
+            elif bmi < 15.8:
+                per = 50
+            elif bmi < 17.3:
+                per = 75
+            elif bmi < 18.3:
+                per = 85
+            elif bmi < 19.2:
+                per = 90
+            else:
+                per = 95
+        if age == 9:
+            if bmi < 13.7:
+                per = 5
+            elif bmi < 14.2:
+                per = 10
+            elif bmi < 15.1:
+                per = 25
+            elif bmi < 16.3:
+                per = 50
+            elif bmi < 18:
+                per = 75
+            elif bmi < 19.1:
+                per = 85
+            elif bmi < 20.1:
+                per = 90
+            else:
+                per = 95
+        if age == 10:
+            if bmi < 14:
+                per = 5
+            elif bmi < 14.5:
+                per = 10
+            elif bmi < 15.5:
+                per = 25
+            elif bmi < 16.9:
+                per = 50
+            elif bmi < 18.7:
+                per = 75
+            elif bmi < 20:
+                per = 85
+            elif bmi < 21:
+                per = 90
+            else:
+                per = 95
+        if age == 11:
+            if bmi < 14.4:
+                per = 5
+            elif bmi < 14.9:
+                per = 10
+            elif bmi < 16:
+                per = 25
+            elif bmi < 17.5:
+                per = 50
+            elif bmi < 19.5:
+                per = 75
+            elif bmi < 20.9:
+                per = 85
+            elif bmi < 22:
+                per = 90
+            else:
+                per = 95
+        if age == 12:
+            if bmi < 14.8:
+                per = 5
+            elif bmi < 15.4:
+                per = 10
+            elif bmi < 16.5:
+                per = 25
+            elif bmi < 18.1:
+                per = 50
+            elif bmi < 20.2:
+                per = 75
+            elif bmi < 21.7:
+                per = 85
+            elif bmi < 23:
+                per = 90
+            else:
+                per = 95
+        if age == 13:
+            if bmi < 15.3:
+                per = 5
+            elif bmi < 15.9:
+                per = 10
+            elif bmi < 17.1:
+                per = 25
+            elif bmi < 18.7:
+                per = 50
+            elif bmi < 21:
+                per = 75
+            elif bmi < 22.6:
+                per = 85
+            elif bmi < 23.9:
+                per = 90
+            else:
+                per = 95
+        if age == 14:
+            if bmi < 15.8:
+                per = 5
+            elif bmi < 16.4:
+                per = 10
+            elif bmi < 17.6:
+                per = 25
+            elif bmi < 19.4:
+                per = 50
+            elif bmi < 21.7:
+                per = 75
+            elif bmi < 23.3:
+                per = 85
+            elif bmi < 24.7:
+                per = 90
+            else:
+                per = 95
+        if age == 15:
+            if bmi < 16.3:
+                per = 5
+            elif bmi < 16.9:
+                per = 10
+            elif bmi < 18.2:
+                per = 25
+            elif bmi < 19.9:
+                per = 50
+            elif bmi < 22.3:
+                per = 75
+            elif bmi < 24:
+                per = 85
+            elif bmi < 25.5:
+                per = 90
+            else:
+                per = 95
+        if age == 16:
+            if bmi < 16.8:
+                per = 5
+            elif bmi < 17.4:
+                per = 10
+            elif bmi < 18.7:
+                per = 25
+            elif bmi < 20.5:
+                per = 50
+            elif bmi < 22.9:
+                per = 75
+            elif bmi < 24.7:
+                per = 85
+            elif bmi < 26.1:
+                per = 90
+            else:
+                per = 95
+        if age == 17:
+            if bmi < 17.2:
+                per = 5
+            elif bmi < 17.8:
+                per = 10
+            elif bmi < 19.1:
+                per = 25
+            elif bmi < 20.9:
+                per = 50
+            elif bmi < 23.4:
+                per = 75
+            elif bmi < 25.2:
+                per = 85
+            elif bmi < 26.7:
+                per = 90
+            else:
+                per = 95
+        if age == 18:
+            if bmi < 17.6:
+                per = 5
+            elif bmi < 18.2:
+                per = 10
+            elif bmi < 19.5:
+                per = 25
+            elif bmi < 21.3:
+                per = 50
+            elif bmi < 23.8:
+                per = 75
+            elif bmi < 25.7:
+                per = 85
+            elif bmi < 27.3:
+                per = 90
+            else:
+                per = 95
+        if age == 19:
+            if bmi < 17.8:
+                per = 5
+            elif bmi < 18.4:
+                per = 10
+            elif bmi < 19.7:
+                per = 25
+            elif bmi < 21.6:
+                per = 50
+            elif bmi < 24.2:
+                per = 75
+            elif bmi < 26.1:
+                per = 85
+            elif bmi < 27.8:
+                per = 90
+            else:
+                per = 95
+        if age == 20:
+            if bmi < 17.8:
+                per = 5
+            elif bmi < 18.5:
+                per = 10
+            elif bmi < 19.8:
+                per = 25
+            elif bmi < 21.7:
+                per = 50
+            elif bmi < 24.5:
+                per = 75
+            elif bmi < 26.5:
+                per = 85
+            elif bmi < 28.3:
+                per = 90
+            else:
+                per = 95
 
     if per < 5:
         bmiprint = "underweight"
